@@ -1,0 +1,4 @@
+fuctions:-
+**********
+- A block of code to perform a specific task.
+- Can Reuse number of times.
