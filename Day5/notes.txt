@@ -1,0 +1,26 @@
+
+Types of functions:
+*******************
+1. Named functions :- function which is having a name to declare and to invoke
+2. Anonymous functions :- function which does not have a name to declare
+ - anonymous function cannot be executed immendiately.
+3. Function expressions :- Function declaration is assigned as a value to variable and the same function will be invoked with the help of variable.
+4. Immediate invoke functions expressions(IIFE) :- once the function is created, it should be immediately invoked.
+ - IIFE can be executed only one time.
+5. Arrow function :- concises the syntax of normal function
+syntax:- ()=>{}
+ - similar to anonymous function
+6. Higher Order function :- Higher Order function is a function which accepts another function as an argument/value to its parameter.
+7. Callback Function :- Callback function is a function which is passed as value/arguments to another function.
+
+-closure :- closure is a memory created when function bundled together/nested each other by giving accessibility to the inner most function to access the variables of outermost function.
+
+Note :- current version of javascript - es14.
+es = ECMA script
+ECMA - european computer manufacturing association.
+
+Return statement:
+- it will return either expression or vaiables to future use.
+
+implicit return: return  using of return statement
+explicit return: returns without using return statement 
