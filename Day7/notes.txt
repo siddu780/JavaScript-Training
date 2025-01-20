@@ -1,0 +1,79 @@
+
+Types of functions:
+*******************
+1. Named functions :- function which is having a name to declare and to invoke
+2. Anonymous functions :- function which does not have a name to declare
+ - anonymous function cannot be executed immediately.
+3. Function expressions :- Function declaration is assigned as a value to variable and the same function will be invoked with the help of variable.
+4. Immediate invoke functions expressions(IIFE) :- once the function is created, it should be immediately invoked.
+ - IIFE can be executed only one time.
+5. Arrow function :- concises the syntax of normal function
+syntax:- ()=>{}
+ - similar to anonymous function
+6. Higher Order function :- Higher Order function is a function which accepts another function as an argument/value to its parameter.
+7. Callback Function :- Callback function is a function which is passed as value/arguments to another function.
+
+-closure :- closure is a memory created when function bundled together/nested each other by giving accessibility to the inner most function to access the variables of outermost function.
+
+Note :- current version of javascript - es14.
+es = ECMA script
+ECMA - european computer manufacturing association.
+
+Return statement:
+- it will return either expression or vaiables to future use.
+
+implicit return: return  using of return statement
+explicit return: returns without using "return" statement 
+---------------------------------------------------------------------------> Day 6
+Arrays:
+*******
+-can store multiple values in a single variable.
+-collections of items / values
+-array can store homogenous and heterogenous values
+syntax:- [] 
+
+what is an object :-
+- object is an entity which is used to store the values in the form of "key" and "value" pairs
+- object is a physical entity which is having states(properties) and behaviours(method)
+
+syntax :- let obj = {};
+note :- javascript is an object based language(till 2015) + object Oriented(OOPs).
+ex:- let obj = {
+            name:"Siddhu"
+            age:19
+        }
+
+JSON :- JavaScript object Notation
+-It is used to transmit the data from client to server and server to the client.
+Syntax:- {
+            "name":"Sam",
+            "age":"19",
+        }
+-extension for javascript is ".json".
+
+---------------------------------------------------------------------------> Day 7
+
+methods of json :-
+1. JSON.stringify() :- it will convert javascript object into JSON object.
+2. JSON.parse() :- it will convert JSON Object into javascript object.
+
+web storages:
+*************
+- It can store the data inside the browser
+- upto 10MB of data can be stored
+
+1. Local storage :-  it is a permanent data storage.
+                  -  it can store upto 10mb. 
+                methods:-
+                    localStorage.setItem("key","value")
+                    localStorage.getItem("key")
+                    localStorage.removeItem("key")
+                    localStorage.clear()
+
+2. session storage :- it is a temporary data storage.
+                  -  it can store upto 5MB of data.
+                  methods:-
+                    sessionStorage.setItem("key","value")
+                    sessionStorage.getItem("key")
+                    sessionStorage.removeItem("key")
+                    sessionStorage.clear()
