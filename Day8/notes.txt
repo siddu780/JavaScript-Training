@@ -1,0 +1,19 @@
+Note:- JavaScript is synchronous (Single threaded language)
+
+Asynchronous :- making 
+methods:-
+1.SetTimeout() :- It is a web api used to perform asynchronous opearations
+        Syntax :- SetTimeout(callbackfn,timeout);
+2.SetInterval() :- It is used to perform async operations for every interval of specified time.
+        Syntax :- SetInterval(callbackfn,timeinterval);
+3.Promise(es6 feature) :- It is an object which represents eventual completion or failures of async opearations
+        States of promise:
+        1.pending:-still going
+        2.fulfilled:-successfully completed
+        3.rejected:-failures
+syntax:- let x = new Promise((resolve,reject)=>{});
+-to handle the promise - we have to use instance methods,
+        1.then() :- it is used to handle successful data
+        2.catch() :- it is used to handle errors
+        3.finally() :- it will execute for bothe success & failures f
+4. Async & wait :-
