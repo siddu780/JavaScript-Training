@@ -1,0 +1,3 @@
+task:-
+take an array of objects where each object contains an employee id,emp name,emp company,emp salary,emp address, where emp address is again an object which contains emp city,emp area.
+print all those values on the UI in a form of table.
